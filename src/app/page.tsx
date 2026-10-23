@@ -1,15 +1,8 @@
+import { Button } from "@/components/ui/button"
 import React from "react"
-import { AlertButton, Button } from "./button"
 
 const Home = () => {
-  return (
-    <AlertButton
-      variant="danger"
-      className="outline-2 outline-amber-300 bg-green-300"
-    >
-      Click me
-    </AlertButton>
-  )
+  return <Button className={"max-w-40"}>Click me</Button>
 }
 
 export default Home
